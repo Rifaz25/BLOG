@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-//components
-import Login from './components/Accounts/login';
+
+import Login from './components/account/Login';
 function App() {
   return (
-    <div className="App">
-      <login/>
+    <div style={{marginTop: 60, marginBottom: 64}}>
+         <Login />
     </div>
   );
 }
